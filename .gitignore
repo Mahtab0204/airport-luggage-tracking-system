@@ -1,0 +1,49 @@
+# ==========================================
+# Backend: lugtrac (Spring Boot)
+# ==========================================
+lugtrac/target/
+lugtrac/build/
+lugtrac/src/main/resources/application.properties
+lugtrac/src/main/resources/application-*.properties
+lugtrac/src/main/resources/application.yml
+lugtrac/src/main/resources/application-*.yml
+*.jar
+*.war
+*.log
+
+# ==========================================
+# Web & Mobile: lugtrac-frontend & LugtracMobile
+# ==========================================
+**/node_modules/
+**/dist/
+**/build/
+**/.expo/
+**/.expo-shared/
+**/web-build/
+**/android/
+**/ios/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+!*.env.example
+!**/.env.example
+
+# ==========================================
+# IDEs & OS Files
+# ==========================================
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
